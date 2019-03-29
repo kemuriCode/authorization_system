@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="AuthorizationSystem:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/AuthorizationSystem_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="AuthorizationSystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AuthorizationSystem" />
+          <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/2.4.0/hsqldb-2.4.0.jar" path-in-jar="/" />
+        </element>
+      </element>
+      <element id="library" level="project" name="Maven: org.hsqldb:hsqldb:2.4.0" />
+      <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+    </root>
+  </artifact>
+</component>
